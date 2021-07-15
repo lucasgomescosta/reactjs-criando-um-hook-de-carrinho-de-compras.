@@ -39,10 +39,6 @@ Em seguida, você vai ver a mensagem:
 
 Perceba que ele iniciou uma fake API com os recursos `/stock` e `/products` em `localhost` na porta `3333` a partir das informações do arquivo [server.json](https://github.com/rocketseat-education/ignite-template-reactjs-criando-um-hook-de-carrinho-de-compras/blob/master/server.json) localizado na raiz do seu projeto. Acessando essas rotas no seu navegador, você consegue ver o retorno das informações já em JSON:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0fe33995-e128-480c-aaf9-c8d77e0f5544/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0fe33995-e128-480c-aaf9-c8d77e0f5544/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c89f74cb-4e41-4658-91d4-f8358a973088/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c89f74cb-4e41-4658-91d4-f8358a973088/Untitled.png)
-
 Para acessar a listagem de todos os produtos e estoque, basta realizar uma requisição GET nas rotas /products e /stock respectivamente. Para acessar os dados de um único item utilize os route params, exemplo: /products/1 e /stock/1 para acessar os dados do produto e estoque do produto de id 1, respectivamente.
 
 ### Preservando carrinho com localStorage API
@@ -75,23 +71,12 @@ De todos os métodos, utilizaremos apenas o `error` e será obrigatório utiliza
 
 # Pages
 
-### components/Header/index.tsx
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71a7f217-c1bb-426a-8fcc-dfb65db6bb7a/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71a7f217-c1bb-426a-8fcc-dfb65db6bb7a/Untitled.png)
-
 ### pages/Home/index.tsx
+<img alt="hooks" title="#BeTheHero" src="https://github.com/lucasgomescosta/reactjs-criando-um-hook-de-carrinho-de-compras./blob/main/public/images/home.PNG" width="550px" />
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3d320e3c-a052-4f72-994e-aa69617ee85c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3d320e3c-a052-4f72-994e-aa69617ee85c/Untitled.png)
 
 ### pages/Cart/index.tsx
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a34120df-4046-4a84-8133-6eb987bceac6/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a34120df-4046-4a84-8133-6eb987bceac6/Untitled.png)
-
-## Especificação dos testes
-
-Em cada teste, tem uma breve descrição no que sua aplicação deve cumprir para que o teste passe.
-
-Caso você tenha dúvidas quanto ao que são os testes, e como interpretá-los, dê uma olhada em **[nosso FAQ](https://www.notion.so/FAQ-Desafios-ddd8fcdf2339436a816a0d9e45767664)**
+<img alt="hooks" title="#BeTheHero" src="https://github.com/lucasgomescosta/reactjs-criando-um-hook-de-carrinho-de-compras./blob/main/public/images/cart.PNG" width="550px" />
 
 
 ## Especificação dos testes
@@ -100,16 +85,12 @@ Em cada teste, tem uma breve descrição no que sua aplicação deve�
 
 Caso você tenha dúvidas quanto ao que são os testes, e como interpretá-los, dê uma olhada em **[nosso FAQ](https://www.notion.so/FAQ-Desafios-ddd8fcdf2339436a816a0d9e45767664)**
 
-Para esse desafio, temos os seguintes testes:
 
-[Teste components/Header/index.tsx](https://www.notion.so/Teste-components-Header-index-tsx-4c2e827e1b1246e9bbb4c63e6c4e7972)
+## Especificação dos testes
 
-[Testes pages/Home/index.tsx](https://www.notion.so/Testes-pages-Home-index-tsx-8c9b60a771684f60baf9b9c4de5aa8a9)
+Em cada teste, tem uma breve descrição no que sua aplicação deve cumprir para que o teste passe.
 
-[Testes pages/Cart/index.tsx](https://www.notion.so/Testes-pages-Cart-index-tsx-20a8e0aa574b4a8a8a8a6462bc769094)
-
-[Testes hooks/useCart.tsx](https://www.notion.so/Testes-hooks-useCart-tsx-ee1a6dd59bf74599aa8cc518bcda4a17)
-
+Caso você tenha dúvidas quanto ao que são os testes, e como interpretá-los, dê uma olhada em **[nosso FAQ](https://www.notion.so/FAQ-Desafios-ddd8fcdf2339436a816a0d9e45767664)**
 
 Para esse desafio, temos os seguintes testes:
 
